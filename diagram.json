@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "author": "IAMC student project",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "sensor",
+      "top": -130,
+      "left": -250,
+      "attrs": {
+        "value": "250"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "green",
+      "top": -180,
+      "left": 220,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rg",
+      "top": -132,
+      "left": 230,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "red",
+      "top": -65,
+      "left": 220,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rr",
+      "top": -17,
+      "left": 230,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer",
+      "top": 35,
+      "left": 235,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-led",
+      "id": "engine",
+      "top": 130,
+      "left": 220,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "re",
+      "top": 178,
+      "left": 230,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "sensor:VCC",
+      "uno:5V",
+      "red",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "sensor:GND",
+      "uno:GND.1",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "sensor:SIG",
+      "uno:A0",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "uno:5",
+      "rg:1",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "rg:2",
+      "green:A",
+      "green",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "green:C",
+      "uno:GND.2",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "uno:6",
+      "rr:1",
+      "red",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "rr:2",
+      "red:A",
+      "red",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "red:C",
+      "uno:GND.2",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "uno:8",
+      "buzzer:1",
+      "orange",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "buzzer:2",
+      "uno:GND.2",
+      "black",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "uno:9",
+      "re:1",
+      "blue",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "re:2",
+      "engine:A",
+      "blue",
+      [
+        "v0"
+      ]
+    ],
+    [
+      "engine:C",
+      "uno:GND.2",
+      "black",
+      [
+        "v0"
+      ]
+    ]
+  ],
+  "dependencies": {}
+}
