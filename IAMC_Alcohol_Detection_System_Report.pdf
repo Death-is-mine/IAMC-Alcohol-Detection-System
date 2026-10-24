@@ -513,7 +513,7 @@ endobj
 endobj
 26 0 obj
 <<
-/Length 2047
+/Length 2277
 >>
 stream
 q
@@ -537,56 +537,46 @@ q
 1 0 0 1 52.8 698.56 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The report covers required items 1-5, and the sketch plus Wokwi project files accompany it. Complete the following before final) Tj T* (academic submission:) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (The report covers required items 1-5. The Wokwi-ready project was run and both threshold states were observed in its Serial) Tj T* (Monitor.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 52.8 679.56 cm
+1 0 0 1 52.8 667.56 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([ ] Add student name, roll number, class, and date to the cover.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Evidence still needed:) Tj /F1 9 Tf ( Add genuine Wokwi screenshots of the circuit, code, and output states. The circuit overview on page 4) Tj T* (is an authored diagram, not a simulator screenshot.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 52.8 660.56 cm
+1 0 0 1 52.8 636.56 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([ ] Run the Wokwi project and insert genuine screenshots of the circuit, code, serial output, and both threshold states.) Tj T* ET
+BT 1 0 0 1 0 15 Tm 12 TL /F2 9 Tf 0 0 0 rg (Before submission:) Tj /F1 9 Tf ( Add student name, roll number, class, and date to the cover. If using physical MQ-3 hardware, measure a) Tj T* (clean-air baseline and calibrate the illustrative threshold.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 52.8 641.56 cm
+1 0 0 1 52.8 593.56 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL ([ ] If testing an MQ-3 module, document measured baseline and calibrated threshold.) Tj T* ET
+BT 1 0 0 1 0 27 Tm 12 TL /F2 9 Tf 0 0 0 rg (Separate deliverables now included:) Tj /F1 9 Tf ( An animated logic walkthrough based on the Wokwi serial output and a passive) Tj T* (two-layer breakout PCB Gerber package. The video is not a screen recording or hardware test. The PCB is not an automotive) Tj T* (interlock and requires CAM/electrical review before manufacture.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 52.8 610.56 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL ([ ] Provide a demo video and Gerber file if the instructor requires them for the final prototype format; these are not included in) Tj T* (this submission.) Tj T* ET
-Q
+1 0 0 1 52.8 581.56 cm
 Q
 q
-1 0 0 1 52.8 595.56 cm
-Q
-q
-1 0 0 1 52.8 575.56 cm
+1 0 0 1 52.8 561.56 cm
 q
 .070588 .188235 .290196 rg
 BT 1 0 0 1 0 4 Tm /F2 16 Tf 20 TL (Project files) Tj T* ET
 Q
 Q
 q
-1 0 0 1 52.8 557.56 cm
+1 0 0 1 52.8 531.56 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (README.md | sketch.ino | diagram.json | wokwi.toml | circuit-overview.pdf | IAMC_Alcohol_Detection_System_Report.pdf) Tj T* ET
+BT 1 0 0 1 0 15 Tm /F1 9 Tf 12 TL (README.md | sketch.ino | diagram.json | wokwi.toml | circuit-overview.pdf | IAMC_Alcohol_Detection_Demo.mp4 |) Tj T* (Gerber_Files/) Tj T* ET
 Q
 Q
 q
-1 0 0 1 52.8 538.56 cm
+1 0 0 1 52.8 512.56 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (End of report) Tj T* ET
@@ -660,5 +650,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-99074
+99304
 %%EOF

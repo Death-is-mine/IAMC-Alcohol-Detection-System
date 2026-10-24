@@ -4,7 +4,7 @@ Arduino Uno teaching prototype that samples the MQ-3 analog signal, gives a buzz
 
 ## Wokwi simulation
 
-Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketch.ino`. The potentiometer is an **input substitute** for the MQ-3 analog output because the simulation uses a controllable analog source. Turning it upward emulates a larger sensor reading. The blue LED emulates the engine-enable output; the simulation does not contain a vehicle or starter. Record actual Wokwi screenshots (circuit, code, and both output states) after running the project; no simulator screenshots are included yet.
+Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketch.ino`. The potentiometer is an **input substitute** for the MQ-3 analog output because the simulation uses a controllable analog source. Turning it upward emulates a larger sensor reading. The blue LED emulates the engine-enable output; the simulation does not contain a vehicle or starter. The below- and above-threshold serial states were observed in a live Wokwi run. Genuine Wokwi screenshots (circuit, code, and both output states) still need to be captured and inserted into the report before final academic submission.
 
 ## Pin map
 
@@ -39,4 +39,4 @@ Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketc
 
 ## Deliverables status
 
-The report PDF and source project are present in this repository. Demo video and Gerber files are not applicable to this breadboard/simulation prototype and are not included. The report identifies the Wokwi screenshot evidence still to be captured.
+The repository includes the six-page report PDF, Arduino/Wokwi source project, a generated logic-walkthrough demo video, and a generated passive breakout-board Gerber package. The demo video is an animation based on the observed Wokwi output states, not a screen recording or physical hardware demonstration. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. Genuine Wokwi screenshots and student identification details are still needed to complete the report for submission.
