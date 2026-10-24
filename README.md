@@ -39,7 +39,7 @@ Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketc
 
 ## Deliverables status
 
-The repository includes the eight-page report PDF, Arduino/Wokwi source project, a 36-second screen recording of the live Wokwi simulation, and a passive breakout-board Gerber package. The recording demonstrates the warm-up, below-threshold permit state, and above-threshold inhibit state in the browser simulator; it is not a physical hardware test. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. The interactive Wokwi review is provided separately through the public project link below.
+The repository includes the eight-page report PDF, Arduino/Wokwi source project, a 55-second screen recording of the live Wokwi simulation, and a passive breakout-board Gerber package. The recording shows the warm-up, below-threshold permit state, and above-threshold inhibit state in the browser simulator; it is not a physical hardware test. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. The interactive Wokwi review is provided separately through the public project link below.
 
 ## Attribution
 
