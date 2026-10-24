@@ -4,7 +4,7 @@ Arduino Uno teaching prototype that samples the MQ-3 analog signal, gives a buzz
 
 ## Wokwi simulation
 
-Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketch.ino`. The potentiometer is an **input substitute** for the MQ-3 analog output because the simulation uses a controllable analog source. Turning it upward emulates a larger sensor reading. The blue LED emulates the engine-enable output; the simulation does not contain a vehicle or starter. The below- and above-threshold serial states were observed in a live Wokwi run. Genuine Wokwi screenshots (circuit, code, and both output states) still need to be captured and inserted into the report before final academic submission.
+Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketch.ino`. The potentiometer is an **input substitute** for the MQ-3 analog output because the simulation uses a controllable analog source. Turning it upward emulates a larger sensor reading. The blue LED emulates the engine-enable output; the simulation does not contain a vehicle or starter. The below- and above-threshold states were observed in a live Wokwi run. The public Wokwi project is linked below and provided separately from the PDF for interactive review of the circuit, code, and outputs. The report uses a generated circuit overview rather than simulator screenshots.
 
 ## Pin map
 
@@ -34,13 +34,14 @@ Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketc
 
 1. Open `sketch.ino` in Arduino IDE and select Arduino Uno.
 2. Wire the sensor, indicators, buzzer, and relay module as listed. Do not power a relay coil from a GPIO pin.
-3. For Wokwi, use the provided potentiometer input to exercise readings below and above 500; capture screenshots of the circuit, sketch, serial output, and both indicator states for submission.
+3. Open the public Wokwi project linked below, allow the warm-up to finish, and use the potentiometer to review readings below and above 500.
 4. On hardware, allow sensor warm-up, collect clean-air baseline readings, and tune the threshold experimentally. Test relay polarity without connecting a vehicle starter.
 
 ## Deliverables status
 
-The repository includes the six-page report PDF, Arduino/Wokwi source project, a generated logic-walkthrough demo video, and a generated passive breakout-board Gerber package. The demo video is an animation based on the observed Wokwi output states, not a screen recording or physical hardware demonstration. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. Genuine Wokwi screenshots and student identification details are still needed to complete the report for submission.
+The repository includes the six-page report PDF, Arduino/Wokwi source project, a generated logic-walkthrough demo video, and a generated passive breakout-board Gerber package. The demo video is an animation based on the observed Wokwi output states, not a screen recording or physical hardware demonstration. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. The interactive Wokwi review is provided separately through the public project link below.
 
 ## Live Wokwi project
 
 [Open the IAMC Alcohol Detection System in Wokwi](https://wokwi.com/projects/478784437484163073). The public simulation includes the sketch and circuit. Let the 20-second warm-up finish, then turn the potentiometer below 500 for permit status or above 500 for the alarm/inhibit state.
+
