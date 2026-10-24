@@ -40,3 +40,7 @@ Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketc
 ## Deliverables status
 
 The repository includes the six-page report PDF, Arduino/Wokwi source project, a generated logic-walkthrough demo video, and a generated passive breakout-board Gerber package. The demo video is an animation based on the observed Wokwi output states, not a screen recording or physical hardware demonstration. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. Genuine Wokwi screenshots and student identification details are still needed to complete the report for submission.
+
+## Live Wokwi project
+
+[Open the IAMC Alcohol Detection System in Wokwi](https://wokwi.com/projects/478784437484163073). The public simulation includes the sketch and circuit. Let the 20-second warm-up finish, then turn the potentiometer below 500 for permit status or above 500 for the alarm/inhibit state.
