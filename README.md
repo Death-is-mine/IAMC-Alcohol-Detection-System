@@ -4,7 +4,7 @@ Arduino Uno teaching prototype that samples the MQ-3 analog signal, gives a buzz
 
 ## Wokwi simulation
 
-Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketch.ino`. The potentiometer is an **input substitute** for the MQ-3 analog output because the simulation uses a controllable analog source. Turning it upward emulates a larger sensor reading. The blue LED emulates the engine-enable output; the simulation does not contain a vehicle or starter. The below- and above-threshold states were observed in a live Wokwi run. The public Wokwi project is linked below and provided separately from the PDF for interactive review of the circuit, code, and outputs. The report uses a generated circuit overview rather than simulator screenshots.
+Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketch.ino`. The potentiometer is an **input substitute** for the MQ-3 analog output because the simulation uses a controllable analog source. Turning it upward emulates a larger sensor reading. The blue LED emulates the engine-enable output; the simulation does not contain a vehicle or starter. The below- and above-threshold states were observed in a live Wokwi run. The public Wokwi project is linked below and provided separately from the PDF for interactive review of the circuit, code, and outputs. The report has a generated circuit overview on page 4 and actual Wokwi screenshots on pages 7 and 8.
 
 ## Pin map
 
@@ -39,7 +39,11 @@ Open this folder as a Wokwi Arduino project, or import `diagram.json` and `sketc
 
 ## Deliverables status
 
-The repository includes the six-page report PDF, Arduino/Wokwi source project, a generated logic-walkthrough demo video, and a generated passive breakout-board Gerber package. The demo video is an animation based on the observed Wokwi output states, not a screen recording or physical hardware demonstration. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. The interactive Wokwi review is provided separately through the public project link below.
+The repository includes the eight-page report PDF, Arduino/Wokwi source project, a 36-second screen recording of the live Wokwi simulation, and a passive breakout-board Gerber package. The recording demonstrates the warm-up, below-threshold permit state, and above-threshold inhibit state in the browser simulator; it is not a physical hardware test. The PCB package is not automotive safety hardware and requires electrical/footprint review and CAM inspection before fabrication. The interactive Wokwi review is provided separately through the public project link below.
+
+## Attribution
+
+This repository contains AI-assisted work. Commit history identifies the assistant-authored commits as `Codex (AI-assisted)`; repository ownership remains with `Death-is-mine`.
 
 ## Live Wokwi project
 
